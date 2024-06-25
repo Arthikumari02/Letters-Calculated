@@ -1,0 +1,64 @@
+.bg-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.letters-calculated-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  height: 700px;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 30px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  font-family: Roboto;
+  gap: 10px;
+}
+
+.typed-input {
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 3px;
+}
+
+.letter-calculated-icon {
+  width: 370px;
+  height: 270px;
+}
+
+.no-of-letters-typed {
+  background-color: white;
+  color: #219a6f;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .letters-calculated-container {
+    width: 450px;
+    height: 500px;
+  }
+
+  .letter-calculated-icon {
+    width: 270px;
+    height: 170px;
+  }
+}
